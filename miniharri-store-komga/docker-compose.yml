@@ -12,3 +12,6 @@ services:
     image: gotson/komga:latest
     user: "1000:1000"
     init: true
+    ports:
+      - 25600:25600
+      
