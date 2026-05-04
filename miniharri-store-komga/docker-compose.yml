@@ -9,9 +9,7 @@ services:
       APP_PORT: 25600
     
   server:
-    image: gotson/komga:latest
+    image: gotson/komga
     user: "1000:1000"
     init: true
-    ports:
-      - 25600:25600
-      
+

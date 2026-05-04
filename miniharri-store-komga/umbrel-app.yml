@@ -4,7 +4,7 @@ name: Komga
 tagline: A simple comic book manager
 icon: https://komga.org/img/logo.svg
 category: Media
-version: "1.0.0"
+version: "1.0.1"
 port: 25600
 description: >-
     Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support
