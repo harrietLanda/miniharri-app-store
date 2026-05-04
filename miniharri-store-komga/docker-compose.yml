@@ -12,9 +12,5 @@ services:
         user: "1000:1000"
         init: true
         volumes:
-            - type: bind
-              source: /home/umbrel/komga/config
-              target: /config
-            - type: bind
-              source: /home/umbrel/komga/data
-              target: /data
+            - /home/umbrel/komga/config:/config
+            - /home/umbrel/komga/data:/data
