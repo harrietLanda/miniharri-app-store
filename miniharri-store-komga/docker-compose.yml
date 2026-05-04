@@ -18,5 +18,3 @@ services:
             - type: bind
               source: /home/umbrel/komga/data
               target: /data
-        ports:
-            - 25600:25600
