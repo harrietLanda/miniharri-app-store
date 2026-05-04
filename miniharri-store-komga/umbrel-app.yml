@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: miniharri-store-komga
+name: Komga
+tagline: A simple comic book manager
+icon: https://komga.org/img/logo.svg
+category: Media
+version: "1.0.0"
+port: 25600
+description: >-
+    Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support
+developer: Gaston
+website: https://komga.org/
+submitter: Harriet Landa
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/gotson/komga
+support: https://github.com/gotson/komga/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
