@@ -1,15 +1,22 @@
 version: "3.7"
 
 services:
+    app_proxy:
+        environment:
+            # The format here is: <app-id>_<docker-service-name>_1
+            APP_HOST: miniharri-store-komga_server_1
+            APP_PORT: 25600
 
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: miniharri-store-komga_server_1
-      APP_PORT: 25600
-    
-  server:
-    image: gotson/komga
-    user: "1000:1000"
-    init: true
-
+    server:
+        image: gotson/komga
+        user: "1000:1000"
+        init: true
+        volumes:
+            - type: bind
+              source: /home/umbrel/komga/config
+              target: /config
+            - type: bind
+              source: /home/umbrel/komga/data
+              target: /data
+        ports:
+            - 25600:25600
