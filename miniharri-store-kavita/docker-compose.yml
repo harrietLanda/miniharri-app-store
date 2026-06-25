@@ -9,10 +9,13 @@ services:
 
     server:
         image: lscr.io/linuxserver/kavita:latest
-        user: "1000:1000"
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - TZ=Etc/UTC
         init: true
         ports:
             - 5000:5000
         volumes:
-            - - ${APP_DATA_DIR}/data/config:/config
+            - ${APP_DATA_DIR}/data/config:/config
             - /home/umbrel/umbrel/network/MyCloud-JTEW1K.local/hlandagil/books/COMICS:/comics
