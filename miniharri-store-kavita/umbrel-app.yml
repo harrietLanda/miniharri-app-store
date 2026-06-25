@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: miniharri-store-kavita
+name: kavita
+tagline: A simple comic book manager
+icon: https://raw.githubusercontent.com/Kareadita/Wiki-Nextra/main/public/favicon.ico
+category: Media
+version: "1.0.3"
+port: 5000
+description: >-
+    Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+developer: Gaston
+website: https://www.kavitareader.com
+submitter: Harriet Landa
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/Kareadita/Kavita
+support: https://github.com/Kareadita/Kavita/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
