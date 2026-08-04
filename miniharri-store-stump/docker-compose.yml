@@ -11,10 +11,6 @@ services:
         image: aaronleopold/stump:latest
         user: "1000:1000"
         init: true
-        environment:
-            PUID: "1000"
-            PGID: "1000"
-            STUMP_CONFIG_DIR: /config
         ports:
             - "10801:10801"
         volumes:
