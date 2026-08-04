@@ -13,6 +13,3 @@ services:
         init: true
         volumes:
             - /home/umbrel/stump/config:/config
-            - /home/umbrel/stump/data:/data
-        ports:
-            - 10801:10801
