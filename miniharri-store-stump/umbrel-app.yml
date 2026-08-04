@@ -5,7 +5,7 @@ tagline: A simple comic book manager
 icon: https://www.stumpapp.dev/favicon.png
 category: Media
 version: "0.1.6"
-port: 4000
+port: 10801
 description: >-
     A free and open source comics, manga and digital book server with OPDS support
 developer: Aaron Leopold
