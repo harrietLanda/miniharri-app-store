@@ -3,7 +3,6 @@ version: "3.7"
 services:
     app_proxy:
         environment:
-            # The format here is: <app-id>_<docker-service-name>_1
             APP_HOST: miniharri-store-stump_server_1
             APP_PORT: 10801
 
@@ -11,5 +10,5 @@ services:
         image: aaronleopold/stump:latest
         init: true
         volumes:
-            - /home/umbrel/app-data/miniharri-store-stump/config:/config
-            - /home/umbrel/app-data/miniharri-store-stump/data:/data
+            - ${APP_DATA_DIR}/data/config:/config
+            - ${APP_DATA_DIR}/data:/data

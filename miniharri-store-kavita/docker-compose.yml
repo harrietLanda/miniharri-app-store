@@ -3,19 +3,11 @@ version: "3.7"
 services:
     app_proxy:
         environment:
-            # The format here is: <app-id>_<docker-service-name>_1
             APP_HOST: miniharri-store-kavita_server_1
             APP_PORT: 5000
 
     server:
         image: jvmilazz0/kavita:latest
-        environment:
-            - PUID=1000
-            - PGID=1000
-            - TZ=Etc/UTC
         init: true
-        ports:
-            - 5000:5000
         volumes:
             - ${APP_DATA_DIR}/data/config:/config
-            - /home/umbrel/umbrel/network/MyCloud-JTEW1K.local/hlandagil/books/COMICS:/comics
