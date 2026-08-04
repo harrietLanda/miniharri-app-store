@@ -8,7 +8,7 @@ version: "0.1.6"
 port: 10801
 description: >-
     A free and open source comics, manga and digital book server with OPDS support
-developer: Gaston
+developer: Aaron Leopold
 website: https://www.stumpapp.dev
 submitter: Harriet Landa
 submission: https://github.com/getumbrel/umbrel-hello-world-app
