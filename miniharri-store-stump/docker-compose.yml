@@ -11,5 +11,13 @@ services:
         image: aaronleopold/stump:latest
         user: "1000:1000"
         init: true
+        environment:
+            PUID: "1000"
+            PGID: "1000"
+            STUMP_CONFIG_DIR: /config
+        ports:
+            - "10801:10801"
         volumes:
-            - /home/umbrel/stump/config:/config
+            - /home/umbrel/app-data/miniharri-store-stump/config:/config
+            - /home/umbrel/app-data/miniharri-store-stump/data:/data
+        restart: unless-stopped
