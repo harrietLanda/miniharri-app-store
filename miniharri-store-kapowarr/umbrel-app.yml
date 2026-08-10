@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: Kapowarr
+name: Kapowarr
+tagline: The *arr suite, rebuilt for comics and manga
+icon: https://kapowarr.com/assets/images/logo.svg
+category: Media
+version: "1.3.1"
+port: 5656
+description: >-
+    Kapowarr is a self-hosted manager that finds, downloads, renames, and organizes your comic and manga issues automatically — the *arr-style workflow, built for comics.
+developer: Kapowarr
+website: https://github.com/Casvt/Kapowarr
+submitter: Harriet Landa
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/Casvt/Kapowarr
+support: https://github.com/Casvt/Kapowarr/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
